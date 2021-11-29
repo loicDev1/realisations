@@ -1,0 +1,7 @@
+/* deployer le projet Pafi*/
+
+- ouvrir le projet avec visual studio code
+- installer l'extention 'live server' dans visual studio en cliquant sur l'icon lateral 'extention' puis saisir dans la barre de recherche 'live server'
+- une fois l'installation terminée ouvir le fichier 'index.html' qui se trouve dans le repertoire 'src'
+- faire un click droit dans le fichier puis cliquer sur 'open with Live Server'
+- attendre que le navigateur s'ouvre sur l'adresse 'http://127.0.0.1:5500/src/index.html' ou sinon ouvrir le navigateur manuellement et saisir l'adresse 'http://127.0.0.1:5500/src/index.html'

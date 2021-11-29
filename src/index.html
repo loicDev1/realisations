@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../style/fontawesome-free-5.15.1-web/css/all.css"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="shortcut icon" href="../resources/maket loic.png" type="image/x-icon">
+    <title>Pafi</title>
+  </head>
+  <body>
+    <div class="fin cacher">
+      <div class="popup-fin">
+        <div class="liste">
+          <div class="faw"> <i id="close" class="fas fa-times"></i> </div>
+          <div class="check"> <i id="check" class="far fa-check-circle"></i> </div>
+          <div class="mess_fin"> Le parrainage est terminé ! </div>
+          <p class="note"> Cliquer sur le lien <b>afficher la liste</b> pour consulter la liste complete du parainage ou fermer la fenetre et cliquer sur <b>reinitialier</b> pour initier une nouvelle partie </p>
+          <div class="divliste"><a href="liste.html" class="lien_liste" target="_blank" title="">afficher la liste</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="affiche active">
+      <div class="popup">5</div>
+    </div>
+
+    <div class="masque"></div>
+
+    <header>
+        <div class="navbar">
+          <div class="navbar_left">
+            <div class="logo">
+              <img src="../resources/log loic parain-1.png" style="width: 50px; height: 50px;" alt="">
+            </div> 
+            <div class="texte">
+              <span>PAFI</span>
+            </div>
+          </div>
+          <div class="navbar_right">
+             <div class="reset">
+               <span>reinitialiser</span>
+             </div>
+             <div class="code_source">
+              <a href="#"><span>code source</span></a>
+            </div>
+          </div>
+          <div class="reseau">
+            <a href="#" title="facebook"><i class="fab fa-facebook" id="facebook"></i></a>
+            <a href="#" title="instagram"><i class="fab fa-instagram" id="instagram"></i></a>
+            <a href="#" title="twitter"><i class="fab fa-twitter" id="twitter"></i></a>
+          </div>
+        </div>
+    </header>
+
+    <section>
+      <div class="section">
+        <div class="left">
+          <div class="sous_left">
+            <div class="titre_parrain">PARRAIN</div>
+            <div class="photo parrain"><i class="fas fa-user"></i></div>
+            <div class="nomp_parrain"><span>PARRAIN_NAME</span></div>
+          </div>
+        </div>
+        <div class="center"><span id="start">GO</span></div>
+        <div class="right">
+          <div class="sous_right">
+            <div class="titre_filleul">FILLEUL</div>
+            <div class="photo filleul"><i class="fas fa-user"></i></div>
+            <div class="nomp_filleul"><span>FILLEUL_NAME</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="copyright">
+        <span> By Locicinio &copy; Open source code</span>
+      </div>
+    </footer>
+
+    <script type="module" src="Js/index.js"></script>
+  </body>
+</html>

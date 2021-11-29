@@ -1,0 +1,123 @@
+*{  
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenair{
+    display: flex;
+    justify-content: center;
+}
+
+.texte{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 5em;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ table{
+    border: 0px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+table tr td{
+    padding: 1vh 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+ tr:nth-child(odd) {
+    background-color: rgb(215, 215, 215);
+    color: black;
+}
+
+ tr:nth-child(even) {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.title{
+    background-color: black;
+    padding: 15px 0px;
+    margin-bottom: 100px;
+}
+
+.title a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.delete{
+    text-decoration: none;
+    background-color: rgb(238, 50, 50);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.delete:hover{
+    background-color: rgb(192, 27, 27);
+    transition: .5s;
+}
+
+.update{
+    text-decoration: none;
+    background-color: rgb(12, 120, 236);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.update:hover{
+    background-color: rgb(10, 90, 175);
+    transition: .5s;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    height: 80vh;
+    overflow: auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: .1px solid black;
+    border-radius: 10px;
+}
+.tab{
+    width: 100%;
+}
+
+.colorP{
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 400;
+    background-color: rgb(255, 107, 55);
+}
+
+.colorF{
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 400;
+    background-color: #4099ff;
+}
+
+.souscontainer h1{
+    margin: 30px 0px;
+    padding: 0px 55px;
+    font-weight: 600;
+    font-size: 2.5em;
+}
